@@ -27,9 +27,6 @@ import java.util.concurrent.Semaphore;
 
 public final class TerrainMap
 {
-    /// Constant square root of two.
-    private static final double SQRT_2 = Math.sqrt(2.0);
-
     /// Enumeration of possible Movement Types
     public enum MovementType
     {

@@ -3,12 +3,10 @@ import java.util.*;
 /// A class that generates random terrains using Perlin noise functions.
 /**
  * This class is responsible for generating the terrain in the world.  It uses Perlin
- * noise functions to create a somewhat realistic and smooth terrain.  You do not
- * need to understand how this code works in order to write a pathfinding AI.
+ * noise functions to create a somewhat realistic and smooth terrain.
  * 
  * This code is based on information on Perlin noise retrieved from www.siafoo.net/snippet/144
- * which was created by many authors.  If you are interested in Perlin noise, consider looking
- * into Ken Perlin's personal web page, which has all sorts of goodies.
+ * which was created by many authors.
  * 
  */
 public final class PerlinTerrainGenerator implements TerrainGenerator
