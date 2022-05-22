@@ -127,7 +127,7 @@ public final class PerlinTerrainGenerator implements TerrainGenerator
 
                 final double[] uv = new double[] {x - i, y - j};
 
-                int index = P[(int) i];
+                int index = P[(int) i % P.length];
                 index = P[(index + (int) j) % P.length];
                 final ArrayList<Double> grad = G.get(index % G.size());
                 sum += Q(uv[0], uv[1]) * dotProduct(grad, uv);
